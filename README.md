@@ -13,10 +13,10 @@ Medical professionals need **real-time, reliable, and up-to-date** medical insig
 
 Solution
 The **Real-Time RAG System for Healthcare** provides:
-- 📡 **Continuous ingestion and indexing** of medical research from **PubMed** and **WHO APIs.**
-- 🔍 **Retrieval-Augmented Generation (RAG)** to fetch relevant, evidence-based insights.
-- 📄 **Context-aware responses** with **source citations.**
-- 🏥 **Clinical decision support** with **transparent AI outputs.**
+- **Continuous ingestion and indexing** of medical research from **PubMed** and **WHO APIs.**
+- **Retrieval-Augmented Generation (RAG)** to fetch relevant, evidence-based insights.
+- **Context-aware responses** with **source citations.**
+- **Clinical decision support** with **transparent AI outputs.**
 
 ---
 
