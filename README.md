@@ -21,12 +21,13 @@ The **Real-Time RAG System for Healthcare** provides:
 ---
 
  Features
-✔ **Real-Time Data Ingestion** – Fetches and updates medical literature dynamically.  
-✔ **Retrieval-Augmented Generation (RAG)** – Ensures responses are based on the latest research.  
-✔ **Agent-Based Reasoning** – Uses **LangGraph** for structured multi-step decision-making.  
-✔ **Medical-Specific Language Model** – Uses **LLaMA** for accurate medical text generation.  
-✔ **Explainable AI** – Provides **direct citations** for every response.  
-✔ **Fast and Scalable** – Uses **Pathway** for real-time processing and indexing.  
+ 
+**Real-Time Data Ingestion** – Fetches and updates medical literature dynamically.  
+**Retrieval-Augmented Generation (RAG)** – Ensures responses are based on the latest research.  
+**Agent-Based Reasoning** – Uses **LangGraph** for structured multi-step decision-making.  
+**Medical-Specific Language Model** – Uses **LLaMA** for accurate medical text generation.  
+**Explainable AI** – Provides **direct citations** for every response.  
+**Fast and Scalable** – Uses **Pathway** for real-time processing and indexing.  
 
 ---
 
