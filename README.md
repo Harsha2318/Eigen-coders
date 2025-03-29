@@ -1,52 +1,46 @@
-# Eigen-coders
+# Healthcare RAG
 
-### Build a Real-time Healthcare RAG for Dynamic Data Injection
-
-![GitHub Repo Stars](https://img.shields.io/github/stars/Harsha2318/Eigen-coders?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/Harsha2318/Eigen-coders?style=social)
-
-## Overview
-Eigen-coders is an advanced **Real-time Retrieval-Augmented Generation (RAG) system** tailored for **Healthcare**. It dynamically injects data, ensuring seamless access to medical insights and research information.
+This project is a Retrieval-Augmented Generation (RAG) application designed for healthcare-related queries. It provides informative responses to medical questions using an AI-powered system.
 
 ## Features
-- **Live data retrieval** from medical sources like PubMed.
-- **AI-powered healthcare assistant** for dynamic data injection.
-- **Fast and efficient processing** for real-time responses.
-- **Dataset integration** for enhanced accuracy.
-- **Secure and scalable** architecture.
+- User-friendly interface for entering queries.
+- AI-generated responses based on relevant medical data.
+- Dark theme for better readability.
+- Responsive design for mobile and desktop.
 
-##Project Structure
-```
-Eigen-coders/
-│── About.html               # Project details
-│── README.md                # Project documentation
-│── chat.py                   # AI-based chatbot implementation
-│── fetch_pubmed.py          # Fetching medical research data
-│── dataset - Sheet1.csv     # Sample dataset for training
-│── ...
-```
+## Screenshots
 
-## Installation & Usage
-### Clone the repository
-```bash
-git clone https://github.com/Harsha2318/Eigen-coders.git
-cd Eigen-coders
-```
-
-### Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Chatbot
-```bash
-python chat.py
-```
+### Initial Response:
+![Healthcare RAG Initial Response]![WhatsApp Image 2025-03-29 at 09 51 38_bd5d5339](https://github.com/user-attachments/assets/6bf18b47-13eb-44b7-a35b-bc7e5322b6fb)
 
 
-## 🤝 Contributing
-We welcome contributions! Feel free to **fork** this repo and submit a **pull request**.
+### Improved Response:
+![Healthcare RAG Improved Response]![WhatsApp Image 2025-03-29 at 09 53 03_f3027339](https://github.com/user-attachments/assets/c0e9f4f2-0937-48af-acb8-b8e3499b0ac5)
 
-## 🌎 Connect
-🚀 **Follow for updates** | ⭐ **Star the repo** | 🛠 **Contribute & Innovate**
+
+## Installation
+To set up the project locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/healthcare-rag.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd healthcare-rag
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   python app.py
+   ```
+5. Open `http://localhost:8000` in your browser.
+
+## Contributing
+Feel free to submit issues or pull requests to improve this project.
+
+## License
+This project is licensed under the MIT License.
 
