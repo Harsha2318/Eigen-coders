@@ -1,90 +1,55 @@
 # Eigen-coders
-Build a real-time Healthcare RAG for dynamic data injection.
 
+### Build a Real-time Healthcare RAG for Dynamic Data Injection
 
-Real-Time RAG System for Healthcare
+![GitHub Repo Stars](https://img.shields.io/github/stars/Harsha2318/Eigen-coders?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/Harsha2318/Eigen-coders?style=social)
+![GitHub License](https://img.shields.io/github/license/Harsha2318/Eigen-coders)
 
-An AI-powered medical assistant that provides **real-time, evidence-based** clinical insights using **Retrieval-Augmented Generation (RAG).**
+## Overview
+Eigen-coders is an advanced **Real-time Retrieval-Augmented Generation (RAG) system** tailored for **Healthcare**. It dynamically injects data, ensuring seamless access to medical insights and research information.
 
----
+## Features
+- **Live data retrieval** from medical sources like PubMed.
+- **AI-powered healthcare assistant** for dynamic data injection.
+- **Fast and efficient processing** for real-time responses.
+- **Dataset integration** for enhanced accuracy.
+- **Secure and scalable** architecture.
 
-Problem Statement
-Medical professionals need **real-time, reliable, and up-to-date** medical insights for **clinical decision-making.** Traditional AI models rely on static knowledge, leading to **outdated or inaccurate** recommendations.
+##Project Structure
+```
+Eigen-coders/
+│── About.html               # Project details
+│── README.md                # Project documentation
+│── chat.py                   # AI-based chatbot implementation
+│── fetch_pubmed.py          # Fetching medical research data
+│── dataset - Sheet1.csv     # Sample dataset for training
+│── ...
+```
 
-Solution
-The **Real-Time RAG System for Healthcare** provides:
-- **Continuous ingestion and indexing** of medical research from **PubMed** and **WHO APIs.**
-- **Retrieval-Augmented Generation (RAG)** to fetch relevant, evidence-based insights.
-- **Context-aware responses** with **source citations.**
-- **Clinical decision support** with **transparent AI outputs.**
+## Installation & Usage
+### Clone the repository
+```bash
+git clone https://github.com/Harsha2318/Eigen-coders.git
+cd Eigen-coders
+```
 
----
-
- Features
- 
-**Real-Time Data Ingestion** – Fetches and updates medical literature dynamically.  
-**Retrieval-Augmented Generation (RAG)** – Ensures responses are based on the latest research.  
-**Agent-Based Reasoning** – Uses **LangGraph** for structured multi-step decision-making.  
-**Medical-Specific Language Model** – Uses **LLaMA** for accurate medical text generation.  
-**Explainable AI** – Provides **direct citations** for every response.  
-**Fast and Scalable** – Uses **Pathway** for real-time processing and indexing.  
-
----
-
-##  Tech Stack
-| **Component**             | **Technology Used**        |
-|---------------------------|--------------------------  |              |
-| Medical Data Sources      | **PubMed API, WHO API**    |
-| Orchestration & Reasoning | **LangGraph**              |
-|  AI Model for Text Gen.   | **LLaMA**                  |
-|  Backend API              | **FastAPI / Flask**        |
-|  Frontend UI              | **React.js + Tailwind CSS**|
-
----
-
-##  How It Works
-1️⃣ **Data Ingestion** – Fetches and structures medical data from **PubMed** and **WHO**.  
-2️⃣ **Indexing and Retrieval** – Stores and retrieves relevant information efficiently.  
-3️⃣ **Contextual Processing** – Uses **LangGraph** to analyze and structure responses.  
-4️⃣ **Response Generation** – **LLaMA** generates answers with **citations** for trust and transparency.  
-
----
-
-##  Installation
-### 🔹 Prerequisites
-- Python **3.9+**
-
-
-### 🔹 Backend Setup
-```sh
-git clone https://github.com/harsha2318/Eigen-coders
-cd medical-rag
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate      # Windows
+### Install dependencies
+```bash
 pip install -r requirements.txt
-uvicorn main:app --reload  # If using FastAPI
 ```
 
-### 🔹 Frontend Setup
-```sh
-cd frontend
-npm install
-npm start
+### Run the Chatbot
+```bash
+python chat.py
 ```
 
----
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-##  Usage
-1️⃣ Open the frontend at **`http://localhost:3000`**  
-2️⃣ Enter a **medical query** and receive **real-time, evidence-based responses.**  
+## 🤝 Contributing
+We welcome contributions! Feel free to **fork** this repo and submit a **pull request**.
 
----
-
-## License
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
-
----
-
- **Contributions Welcome!** Feel free to submit issues or pull requests to improve the project. 
+## 🌎 Connect
+🚀 **Follow for updates** | ⭐ **Star the repo** | 🛠 **Contribute & Innovate**
 
