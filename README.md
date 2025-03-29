@@ -33,8 +33,7 @@ The **Real-Time RAG System for Healthcare** provides:
 
 ##  Tech Stack
 | **Component**             | **Technology Used**        |
-|---------------------------|--------------------------  |
-| Real-Time Data Processing | **Pathway**                |
+|---------------------------|--------------------------  |              |
 | Medical Data Sources      | **PubMed API, WHO API**    |
 | Orchestration & Reasoning | **LangGraph**              |
 |  AI Model for Text Gen.   | **LLaMA**                  |
@@ -54,11 +53,11 @@ The **Real-Time RAG System for Healthcare** provides:
 ##  Installation
 ### 🔹 Prerequisites
 - Python **3.9+**
-- Node.js **18+**
+
 
 ### 🔹 Backend Setup
 ```sh
-git clone https://github.com/your-repo/medical-rag.git
+git clone https://github.com/harsha2318/Eigen-coders
 cd medical-rag
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
