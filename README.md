@@ -87,5 +87,5 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ---
 
-📩 **Contributions Welcome!** Feel free to submit issues or pull requests to improve the project. 
+ **Contributions Welcome!** Feel free to submit issues or pull requests to improve the project. 
 
