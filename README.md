@@ -30,19 +30,19 @@ The **Real-Time RAG System for Healthcare** provides:
 
 ---
 
-## 🛠️ Tech Stack
-| **Component**               | **Technology Used**       |
-|-----------------------------|--------------------------|
-| Real-Time Data Processing | **Pathway**             |
-| Medical Data Sources      | **PubMed API, WHO API**  |
-| Orchestration & Reasoning | **LangGraph**           |
-| 🤖 AI Model for Text Gen.   | **LLaMA**               |
-| ⚙️ Backend API              | **FastAPI / Flask**      |
-| 💻 Frontend UI              | **React.js + Tailwind CSS** |
+##  Tech Stack
+| **Component**             | **Technology Used**        |
+|---------------------------|--------------------------  |
+| Real-Time Data Processing | **Pathway**                |
+| Medical Data Sources      | **PubMed API, WHO API**    |
+| Orchestration & Reasoning | **LangGraph**              |
+|  AI Model for Text Gen.   | **LLaMA**                  |
+|  Backend API              | **FastAPI / Flask**        |
+|  Frontend UI              | **React.js + Tailwind CSS**|
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 1️⃣ **Data Ingestion** – Fetches and structures medical data from **PubMed** and **WHO**.  
 2️⃣ **Indexing and Retrieval** – Stores and retrieves relevant information efficiently.  
 3️⃣ **Contextual Processing** – Uses **LangGraph** to analyze and structure responses.  
