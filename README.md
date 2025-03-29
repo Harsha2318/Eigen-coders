@@ -1,44 +1,37 @@
 # Healthcare RAG
 
-This project is a Retrieval-Augmented Generation (RAG) application designed for healthcare-related queries. It provides informative responses to medical questions using an AI-powered system.
+This project is a Retrieval-Augmented Generation (RAG) application for healthcare queries. It provides relevant answers based on medical knowledge.
 
 ## Features
-- User-friendly interface for entering queries.
-- AI-generated responses based on relevant medical data.
-- Dark theme for better readability.
-- Responsive design for mobile and desktop.
+- Accepts user queries related to healthcare.
+- Provides AI-generated responses based on medical data.
+- Enhances responses with additional context.
 
 ## Screenshots
 
 ### Initial Response:
-![Healthcare RAG Initial Response]![WhatsApp Image 2025-03-29 at 09 51 38_bd5d5339](https://github.com/user-attachments/assets/6bf18b47-13eb-44b7-a35b-bc7e5322b6fb)
+![Healthcare RAG Screenshot 1](WhatsApp%20Image%202025-03-29%20at%2009.51.38_2ad3da7c.jpg)
 
-
-### Improved Response:
-![Healthcare RAG Improved Response]![WhatsApp Image 2025-03-29 at 09 53 03_f3027339](https://github.com/user-attachments/assets/c0e9f4f2-0937-48af-acb8-b8e3499b0ac5)
-
+### Enhanced Response:
+![Healthcare RAG Screenshot 2](WhatsApp%20Image%202025-03-29%20at%2009.53.03_19a271f7.jpg)
 
 ## Installation
-To set up the project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/healthcare-rag.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd healthcare-rag
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   python app.py
-   ```
-5. Open `http://localhost:8000` in your browser.
+```sh
+git clone https://github.com/Harsha2318/Eigen-coders.git
+cd Eigen-coders
+pip install -r requirements.txt
+python app.py
+```
+
+## Usage
+1. Run `python app.py`.
+2. Open `localhost:8000` in a browser.
+3. Enter your healthcare-related question.
+4. View the AI-generated response.
 
 ## Contributing
-Feel free to submit issues or pull requests to improve this project.
+Feel free to fork the repository, make changes, and submit a pull request!
 
+## License
+This project is licensed under the MIT License.
 
