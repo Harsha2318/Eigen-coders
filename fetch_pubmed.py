@@ -1,7 +1,7 @@
 import requests
 
 # PubMed API details
-API_KEY = "98c9c704f0ce896e1981039086aa705dad08"
+API_KEY = "98c9c704f0ce896e1981039086aa705dad08"  # Replace with your API key
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 DETAILS_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
@@ -33,10 +33,10 @@ def fetch_article_details(article_id):
     }
     
     response = requests.get(DETAILS_URL, params=params)
-    return response.text 
+    return response.text  # XML format
 
 if __name__ == "__main__":
     articles = fetch_pubmed_articles()
     for article_id in articles:
         details = fetch_article_details(article_id)
-        print(f"Article {article_id}: {details[:500]}...\n")
+        print(f"Article {article_id}: {details[:500]}...\n")  # Print first 500 chars
