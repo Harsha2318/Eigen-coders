@@ -70,7 +70,7 @@ def find_best_cure(user_input):
         for keyword, response in medical_keywords.items():
             if keyword in user_input.lower():
                 return response
-        return "I'm sorry, I don't have enough information on this. Please consult a healthcare professional."
+        return "Only health-related inquiries are supported. Please consult a healthcare professional for further assistance."
     
     return df.iloc[best_match_idx]['cure']
 
@@ -82,7 +82,7 @@ def translate_text(text, dest_language='en'):
 translator = Translator()
 
 # Streamlit UI
-st.title("Medical Chatbot 🤖")
+st.title("Med-Assistant")
 user_input = st.text_input("Ask a question:")
 
 # Language selection
@@ -115,7 +115,7 @@ if st.button("Get Response"):
         response = find_best_cure(user_input)
         translated_response = translate_text(response, dest_language=language_codes[language_choice])
         st.write(f"**My Suggestion is:** {translated_response}")
-        st.write("*Please note, the translation is provided by AI and might not be perfect.*")
+        st.write("*For further assistance, please consult a doctor.*")
 
 # Button for health tip
 if st.button("Get a Personalized Health Tip"):
