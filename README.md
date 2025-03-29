@@ -2,16 +2,16 @@
 Build a real-time Healthcare RAG for dynamic data injection.
 
 
-# 🏥 Real-Time RAG System for Healthcare
+Real-Time RAG System for Healthcare
 
 An AI-powered medical assistant that provides **real-time, evidence-based** clinical insights using **Retrieval-Augmented Generation (RAG).**
 
 ---
 
-## 🚨 Problem Statement
+Problem Statement
 Medical professionals need **real-time, reliable, and up-to-date** medical insights for **clinical decision-making.** Traditional AI models rely on static knowledge, leading to **outdated or inaccurate** recommendations.
 
-## ✅ Solution
+Solution
 The **Real-Time RAG System for Healthcare** provides:
 - 📡 **Continuous ingestion and indexing** of medical research from **PubMed** and **WHO APIs.**
 - 🔍 **Retrieval-Augmented Generation (RAG)** to fetch relevant, evidence-based insights.
@@ -20,7 +20,7 @@ The **Real-Time RAG System for Healthcare** provides:
 
 ---
 
-## 🚀 Features
+ Features
 ✔ **Real-Time Data Ingestion** – Fetches and updates medical literature dynamically.  
 ✔ **Retrieval-Augmented Generation (RAG)** – Ensures responses are based on the latest research.  
 ✔ **Agent-Based Reasoning** – Uses **LangGraph** for structured multi-step decision-making.  
@@ -33,9 +33,9 @@ The **Real-Time RAG System for Healthcare** provides:
 ## 🛠️ Tech Stack
 | **Component**               | **Technology Used**       |
 |-----------------------------|--------------------------|
-| 🏗️ Real-Time Data Processing | **Pathway**             |
-| 📚 Medical Data Sources      | **PubMed API, WHO API**  |
-| 🧠 Orchestration & Reasoning | **LangGraph**           |
+| Real-Time Data Processing | **Pathway**             |
+| Medical Data Sources      | **PubMed API, WHO API**  |
+| Orchestration & Reasoning | **LangGraph**           |
 | 🤖 AI Model for Text Gen.   | **LLaMA**               |
 | ⚙️ Backend API              | **FastAPI / Flask**      |
 | 💻 Frontend UI              | **React.js + Tailwind CSS** |
@@ -50,10 +50,10 @@ The **Real-Time RAG System for Healthcare** provides:
 
 ---
 
-## 📥 Installation
+##  Installation
 ### 🔹 Prerequisites
-- ✅ Python **3.9+**
-- ✅ Node.js **18+**
+- Python **3.9+**
+- Node.js **18+**
 
 ### 🔹 Backend Setup
 ```sh
@@ -75,16 +75,16 @@ npm start
 
 ---
 
-## 🎯 Usage
+##  Usage
 1️⃣ Open the frontend at **`http://localhost:3000`**  
 2️⃣ Enter a **medical query** and receive **real-time, evidence-based responses.**  
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
 
 ---
 
-📩 **Contributions Welcome!** Feel free to submit issues or pull requests to improve the project. 😊
+📩 **Contributions Welcome!** Feel free to submit issues or pull requests to improve the project. 
 
