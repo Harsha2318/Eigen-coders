@@ -43,8 +43,6 @@ pip install -r requirements.txt
 python chat.py
 ```
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 We welcome contributions! Feel free to **fork** this repo and submit a **pull request**.
