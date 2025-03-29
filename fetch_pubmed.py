@@ -33,7 +33,7 @@ def fetch_article_details(article_id):
     }
     
     response = requests.get(DETAILS_URL, params=params)
-    return response.text  # XML format
+    return response.text 
 
 if __name__ == "__main__":
     articles = fetch_pubmed_articles()
