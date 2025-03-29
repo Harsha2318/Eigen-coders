@@ -10,10 +10,12 @@ This project is a Retrieval-Augmented Generation (RAG) application for healthcar
 ## Screenshots
 
 ### Initial Response:
-![Healthcare RAG Screenshot 1](WhatsApp%20Image%202025-03-29%20at%2009.51.38_2ad3da7c.jpg)
+![Healthcare RAG Screenshot 1]![WhatsApp Image 2025-03-29 at 09 51 38_95585d41](https://github.com/user-attachments/assets/73461e8b-9325-4862-b25e-74641c1c6e6e)
+
 
 ### Enhanced Response:
-![Healthcare RAG Screenshot 2](WhatsApp%20Image%202025-03-29%20at%2009.53.03_19a271f7.jpg)
+![Healthcare RAG Screenshot 2]![WhatsApp Image 2025-03-29 at 09 53 03_f7b0fa33](https://github.com/user-attachments/assets/74233443-d034-46e7-96a7-3aea585687dc)
+
 
 ## Installation
 ```sh
