@@ -4,7 +4,6 @@
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Harsha2318/Eigen-coders?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/Harsha2318/Eigen-coders?style=social)
-![GitHub License](https://img.shields.io/github/license/Harsha2318/Eigen-coders)
 
 ## Overview
 Eigen-coders is an advanced **Real-time Retrieval-Augmented Generation (RAG) system** tailored for **Healthcare**. It dynamically injects data, ensuring seamless access to medical insights and research information.
